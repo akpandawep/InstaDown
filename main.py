@@ -49,13 +49,19 @@ async def start_msg(client,message):
     user_id=str(message.from_user.id)
     name=message.from_user.first_name
     msg_cnt=str(message.text)
-    if user_id!=str(owner_id):
+    if user_id != str(owner_id):
        pass
     else:
         try:
-           username=msg_cnt.split(" ")[1]
-           password=msg_cnt.split(" ")[2]
-           loger=sessiongen(username, password)
+           username = msg_cnt.split(" ")[1]
+           password = msg_cnt.split(" ")[2]
+           
+           # Writing to config file
+           with open("config.py", "w") as config_file:
+               config_file.write(f"username = '{username}'\n")
+               config_file.write(f"password = '{password}'\n")
+
+           loger = sessiongen(username, password)
            await message.reply(f"__**{loger}**__")
         except Exception as e:
           print(e)
