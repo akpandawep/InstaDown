@@ -39,7 +39,7 @@ put the API_ID, API_HASH, BOT_TOKEN,OWNER_ID,OWNER_USERNAME at Config.py
 ##### First step:
 
 ```sh
-git clone https://github.com/riz4d/InstaDown
+!git clone https://github.com/akpandawep/InstaDown
 ```
 
 ##### Second step:
@@ -51,13 +51,13 @@ cd InstaDown
 ##### Third step:
 
 ```sh
-pip install -r requirements.txt
+!pip install -r requirements.txt
 ```
 
 ##### Fourth step:
 
 ```sh
-python3 main.py
+!python3 main.py
 ```
 
 ## Issues 
