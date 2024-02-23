@@ -1,6 +1,7 @@
 import re
 from instaloader import Instaloader, Post,TwoFactorAuthRequiredException
-
+username = "itz_riya_.06_"
+password = "q6md7q2tmpnator.live121"
 loader = Instaloader(download_videos=True, download_geotags=False, download_comments=False, compress_json=False)
 def sessiongen(username,password):
     try:
