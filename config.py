@@ -1,5 +1,5 @@
 bot_token="7091874361:AAE6IOMPiji6ycxDUWiuvc1NOTQuwddAiVM"
 api_hash="4a926822b076a086a167fe8f2701d3e9"
 api_id="29917436"
-owner_id="6141937812"
-owner_username="AnnymousBot"
+owner_id="5754154245"
+owner_username="Itachiuchhiihaa"
